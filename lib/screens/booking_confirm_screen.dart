@@ -32,7 +32,7 @@ class BookingConfirmationScreen extends StatelessWidget {
                   const SizedBox(height: 20),
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.green.withOpacity(0.15),
+                      color: Colors.green.withAlpha(10),
                       shape: BoxShape.circle,
                     ),
                     padding: const EdgeInsets.all(20),
